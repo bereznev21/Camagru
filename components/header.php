@@ -14,6 +14,7 @@
         </a>
         <ul class="navigation-list">
             <li><a href="/">General</a></li>
+            <li><a href="/user">Profile</a></li>
             <li><a href="/login.php">Log in</a></li>
         </ul>
     </nav>
