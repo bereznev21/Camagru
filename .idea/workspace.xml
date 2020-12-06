@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="93a8fcfa-9584-454d-bed6-e526ac0e24a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/404_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/404_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/main_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/user_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/user_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/components/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -53,12 +58,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607179771625</updated>
-      <workItem from="1607179773690" duration="10487000" />
+      <workItem from="1607179773690" duration="10820000" />
+      <workItem from="1607265290274" duration="1037000" />
+      <workItem from="1607267634948" duration="3330000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -70,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
