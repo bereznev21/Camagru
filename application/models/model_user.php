@@ -1,21 +1,50 @@
 <?php
-class Model_User extends Model
+class User extends Model
 {
-    public function get_data()
-    {
-        return array(
+    private $user_id;
+    private $user_name;
+    private $user_email;
+    private $user_password;
 
-            array(
-                'Year' => '2012',
-                'Site' => 'http://DunkelBeer.ru',
-                'Description' => 'Промо-сайт темного пива Dunkel от немецкого производителя Löwenbraü выпускаемого в России пивоваренной компанией "CАН ИнБев".'
-            ),
-            array(
-                'Year' => '2012',
-                'Site' => 'http://ZopoMobile.ru',
-                'Description' => 'Русскоязычный каталог китайских телефонов компании Zopo на базе Android OS и аксессуаров к ним.'
-            ),
-            // todo
-        );
+    function login($user_name, $user_password) {
+        //$this->user_name =
+        //$this->user_password =
+
+        if ($user) {
+            setcookie("id", $this->user_id, time()+36000);
+            setcookie("user", $this->user_name, time()+36000);
+            setcookie("password", $this->user_password, time()+36000);
+            return true;
+        } else {
+            return false;
+        }
     }
+
+    public function logout() {
+        setcookie("user", "");
+        setcookie("password", "");
+        setcookie("id", "");
+        return true;
+    }
+
+    function changeUserPassword($old_password, $new_password) {
+        if ($this->user_password == password_cash($old_password)) {
+            $this->user_password = $new_password;
+            return true;
+        }
+        return false;
+    }
+
+    function changeUserEmail($new_email) {
+        $this->user_email = $new_email;
+    }
+
+    function getUserName() {
+        return $this->user_name;
+    }
+
+    function getUserEmail() {
+        return $this->user_email;
+    }
+
 }
