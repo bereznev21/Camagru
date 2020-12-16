@@ -1,15 +1,59 @@
+body {
+    margin: 50px 50px 25px;
+}
+
 ul {
     list-style: none; /*убираем маркеры списка*/
     margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0; /*убираем левый отступ, равный 40px*/
 }
-a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
 
-.profile {
+li {
+    float:right; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:20px; /*Добавляем отступ у пунктов меню*/
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+#logo {
+    width: 100px;
+}
+
+#profile {
     width: 100px;
     margin-bottom: 20px;
 }
 
-.avatar {
+#avatar {
     width: 100%;
+}
+
+#gallery {
+    float: left;
+    margin: 10px;
+}
+
+.side {
+    float: right;
+    width: 20%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */    border-left: 1px solid #ccc;
+}
+
+.footer {
+    width: 200px;
+}
+
+.side_image {
+    width: 150px;
+}
+
+#gallery_image {
+
+}
+
+.site_footer {
+
 }
