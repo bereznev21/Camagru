@@ -6,4 +6,5 @@
     $DB_DSN = "mysql:host=$DB_HOST_NAME;dbname=$DB_NAME";
     $DB_OPT = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    ]
+    ];
+?>
